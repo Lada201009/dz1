@@ -66,3 +66,19 @@ h1, h4{
   background: white;
   text-align: center;
 }
+.block1, .block2, .block3{
+ display: table-cell;
+  width: 33%;
+  box-sizing:border-box;
+  font-size: 17px;
+  padding: 20px 5px;
+  vertical-align: top;
+  
+}
+.container-block .block1, .container-block .block3{
+background-color:#926239;
+color: white;
+}
+.container-block .block2{
+  background: white;
+}
